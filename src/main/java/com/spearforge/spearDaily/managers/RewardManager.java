@@ -30,7 +30,6 @@ public class RewardManager {
             Map<String, List<String>> rewardList = SpearDaily.getRewards().getOrDefault(dayInt, new HashMap<>());
 
             for (String group : daySection.getKeys(false)) {
-                System.out.println("Loading reward for day: " + day + " and group: " + group);
                 List<String> commands = daySection.getStringList(group + ".commands");
 
                 rewardList.put(group.toLowerCase(), commands);

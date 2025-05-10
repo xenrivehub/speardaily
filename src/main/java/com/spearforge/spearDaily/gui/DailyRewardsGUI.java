@@ -48,7 +48,7 @@ public class DailyRewardsGUI {
         for (int i = 1; i <= 7; i++) {
             ItemStack rewardItem = new ItemStack(Material.CHEST_MINECART);
             ItemMeta rewardMeta = rewardItem.getItemMeta();
-            rewardMeta.setDisplayName(ChatColor.BLACK + "Günlük Ödül #" + i);
+            rewardMeta.setDisplayName(ChatColor.GOLD + "Günlük Ödül #" + i);
 
             List<String> lore = new ArrayList<>();
 
@@ -56,6 +56,7 @@ public class DailyRewardsGUI {
             if (i == today.getDayOfWeek().getValue()) {
                 if (claimedToday) {
                     rewardItem.setType(Material.MINECART);
+                    lore.add(ChatColor.GREEN + " Ödül alındı!");
                 } else {
                     rewardItem.setType(Material.CHEST_MINECART);
                     lore.add(ChatColor.RED + " Ödül alınabilir!");
