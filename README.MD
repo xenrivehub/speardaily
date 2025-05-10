@@ -21,7 +21,19 @@ rewards:
         - 'give vote 1 %player%'
     vip:
       commands:
-        - 'broadcast Hello VIP!'
+        - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
 gui:
   1:
     display-name: "&6Day #%day%"
@@ -44,7 +56,7 @@ gui:
 ## Permissions
 
 - `speardaily.default` - Access to default rewards.
-- `speardaily.vip` - Access to VIP rewards.
+- `speardaily.vip` - Also megavip, ultravip, spearvip, spearvip+ You can use these permsissions to give players access to the rewards.
 
 ## NOTE
 - This plugin is just developed for Spear Network and is not intended for public use. If you want a plugin like this one

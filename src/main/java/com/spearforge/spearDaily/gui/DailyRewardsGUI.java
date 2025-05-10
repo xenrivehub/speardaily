@@ -23,7 +23,7 @@ public class DailyRewardsGUI {
 
 
     public void openRewardGUI(Player player) {
-        Inventory gui = Bukkit.createInventory(null, 27, ChatColor.GOLD + "Günlük Ödül");
+        Inventory gui = Bukkit.createInventory(null, 27, ChatColor.translateAlternateColorCodes('&', SpearDaily.getPlugin().getConfig().getString("title")));
 
         LocalDate today = LocalDate.now();
         LocalDate yesterday = today.minusDays(1);

@@ -6,6 +6,18 @@ rewards:
     vip:
       commands:
         - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
   2:
     default:
       commands:
@@ -13,6 +25,18 @@ rewards:
     vip:
       commands:
         - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
   3:
     default:
       commands:
@@ -20,6 +44,18 @@ rewards:
     vip:
       commands:
         - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
   4:
     default:
       commands:
@@ -27,6 +63,18 @@ rewards:
     vip:
       commands:
         - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
   5:
     default:
       commands:
@@ -34,6 +82,18 @@ rewards:
     vip:
       commands:
         - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
   6:
     default:
       commands:
@@ -41,6 +101,18 @@ rewards:
     vip:
       commands:
         - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
   7:
     default:
       commands:
@@ -48,6 +120,19 @@ rewards:
     vip:
       commands:
         - 'broadcast naber'
+    megavip:
+      commands:
+        - 'give vote 1 %player%'
+    ultravip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip:
+      commands:
+        - 'give vote 1 %player%'
+    spearvip+:
+      commands:
+        - 'give vote 1 %player%'
+
 
 
 gui:
@@ -121,3 +206,5 @@ gui:
       - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
       - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
       - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
+
+title: "&8Günlük Ödül"

@@ -22,7 +22,7 @@ public class DailyRewardListener implements Listener {
 
     @EventHandler
     public void onInventoryClick(InventoryClickEvent event) {
-        if (event.getView().getTitle().equals(ChatColor.BLACK + "Günlük Ödül")) {
+        if (event.getView().getTitle().equals(ChatColor.translateAlternateColorCodes('&', SpearDaily.getPlugin().getConfig().getString("title")))) {
             event.setCancelled(true);
 
             Player player = (Player) event.getWhoClicked();
@@ -40,7 +40,7 @@ public class DailyRewardListener implements Listener {
             Map<String, List<String>> todaysReward = SpearDaily.getRewards().get(LocalDate.now().getDayOfWeek().getValue());
 
             if (todaysReward == null){
-                player.sendMessage(color("&cÖdül sisteminde bir hata mevcut, ONUR'a ulaşın!"));
+                player.sendMessage(color("&cÖdül sisteminde bir hata mevcut, ONUR ulaşın!"));
                 return;
             }
             List<String> todayCommands = todaysReward.get(getPlayerType(player));
