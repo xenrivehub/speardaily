@@ -10,3 +10,7 @@ commands:
     description: Claim your daily reward
     usage: /günlüködül
     aliases: [ günlük ]
+  dailyreload:
+    description: Reload the plugin
+    usage: /dailyreload
+    aliases: [ dailyreload ]

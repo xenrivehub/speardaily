@@ -51,7 +51,17 @@ public class DailyRewardListener implements Listener {
             }
 
             if (event.getCurrentItem().getType() == Material.CHEST_MINECART){
-                player.sendMessage(color("&6ꜱᴘᴇᴀʀ &fɴᴇᴛᴡᴏʀᴋ &8» &fHaftanın " + slot + ". günü ödülünü başarıyla aldın!"));
+
+                LocalDate todayDate = LocalDate.now();
+                boolean isTaken = dataManager.getPlayerData(player).getLastReward().equals(todayDate);
+
+                if (isTaken){
+                    player.sendMessage(color("&6ꜱᴘᴇᴀʀ &fɴᴇᴛᴡᴏʀᴋ &8» &cBu ödülü zaten aldın!"));
+                    player.playSound(player.getLocation(), Sound.ENTITY_VILLAGER_NO, 1, 1);
+                    return;
+                }
+
+                player.sendMessage(color("&6ꜱᴘᴇᴀʀ &fɴᴇᴛᴡᴏʀᴋ &8» &fHaftanın " + (slot - 9) + ". günü ödülünü başarıyla aldın!"));
                 for (String command : todayCommands){
                     Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command.replace("%player%", player.getName()));
                 }
@@ -63,6 +73,7 @@ public class DailyRewardListener implements Listener {
                     playerData.setCurrentStreak(0);
                 }
                 dataManager.savePlayerData(uuid, playerData);
+                player.closeInventory();
             } else if (event.getCurrentItem().getType() == Material.CHEST){
                 player.sendMessage(color(" &6ꜱᴘᴇᴀʀ &fɴᴇᴛᴡᴏʀᴋ &8» &cHenüz bu ödülü alamazsın maalesef!"));
                 player.playSound(player.getLocation(), Sound.ENTITY_VILLAGER_NO, 1, 1);
