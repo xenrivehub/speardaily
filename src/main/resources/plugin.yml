@@ -1,7 +1,12 @@
 name: SpearDaily
 version: '1.0'
 main: com.spearforge.spearDaily.SpearDaily
-api-version: '1.18'
+api-version: '1.13'
 authors: [ xenrive ]
 description: DailyRewards plugin for SpearNetwork
 website: www.spearnw.com
+commands:
+  günlüködül:
+    description: Claim your daily reward
+    usage: /günlüködül
+    aliases: [ günlük ]

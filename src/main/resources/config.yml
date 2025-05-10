@@ -1,0 +1,123 @@
+rewards:
+  1:
+    default:
+      commands:
+        - 'give vote 1 %player%'
+    vip:
+      commands:
+        - 'broadcast naber'
+  2:
+    default:
+      commands:
+        - 'give vote 1 %player%'
+    vip:
+      commands:
+        - 'broadcast naber'
+  3:
+    default:
+      commands:
+        - 'give vote 1 %player%'
+    vip:
+      commands:
+        - 'broadcast naber'
+  4:
+    default:
+      commands:
+        - 'give vote 1 %player%'
+    vip:
+      commands:
+        - 'broadcast naber'
+  5:
+    default:
+      commands:
+        - 'give vote 1 %player%'
+    vip:
+      commands:
+        - 'broadcast naber'
+  6:
+    default:
+      commands:
+        - 'give vote 1 %player%'
+    vip:
+      commands:
+        - 'broadcast naber'
+  7:
+    default:
+      commands:
+        - 'give vote 1 %player%'
+    vip:
+      commands:
+        - 'broadcast naber'
+
+
+gui:
+  1:
+    display-name: "&6Gün #%day%" # gün numarası
+    lore:
+      - "&2Oyuncu &8- &716 Toprak"
+      - "#FFC312VIP &8- &71 Vote Kasası"
+      - "#FFC312VIP &8- &720 dk Fly"
+      - "#0be881Mega&fVIP &8- &7 Oylama 2"
+      - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
+      - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
+      - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
+  2:
+    display-name: "&6Gün #%day%" # gün numarası
+    lore:
+      - "&2Oyuncu &8- &716 Toprak"
+      - "#FFC312VIP &8- &71 Vote Kasası"
+      - "#FFC312VIP &8- &720 dk Fly"
+      - "#0be881Mega&fVIP &8- &7 Oylama 2"
+      - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
+      - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
+      - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
+  3:
+    display-name: "&6Gün #%day%" # gün numarası
+    lore:
+      - "&2Oyuncu &8- &716 Toprak"
+      - "#FFC312VIP &8- &71 Vote Kasası"
+      - "#FFC312VIP &8- &720 dk Fly"
+      - "#0be881Mega&fVIP &8- &7 Oylama 2"
+      - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
+      - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
+      - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
+  4:
+    display-name: "&6Gün #%day%" # gün numarası
+    lore:
+      - "&2Oyuncu &8- &716 Toprak"
+      - "#FFC312VIP &8- &71 Vote Kasası"
+      - "#FFC312VIP &8- &720 dk Fly"
+      - "#0be881Mega&fVIP &8- &7 Oylama 2"
+      - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
+      - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
+      - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
+  5:
+    display-name: "&6Gün #%day%" # gün numarası
+    lore:
+      - "&2Oyuncu &8- &716 Toprak"
+      - "#FFC312VIP &8- &71 Vote Kasası"
+      - "#FFC312VIP &8- &720 dk Fly"
+      - "#0be881Mega&fVIP &8- &7 Oylama 2"
+      - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
+      - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
+      - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
+  6:
+    display-name: "&6Gün #%day%" # gün numarası
+    lore:
+      - "&2Oyuncu &8- &716 Toprak"
+      - "#FFC312VIP &8- &71 Vote Kasası"
+      - "#FFC312VIP &8- &720 dk Fly"
+      - "#0be881Mega&fVIP &8- &7 Oylama 2"
+      - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
+      - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
+      - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
+  7:
+    display-name: "&6Gün #%day%" # gün numarası
+    lore:
+      - "&2Oyuncu &8- &716 Toprak"
+      - "&#FFC312VIP &8- &71 Vote Kasası"
+      - "&#FFC312VIP &8- &720 dk Fly"
+      - "&#0be881Mega&fVIP &8- &7 Oylama 2"
+      - "#12CBC4Ultra&fVIP &8- &7 Parlak 2"
+      - "#F79F1FSpear&fVIP &8- &7 Oylama 2"
+      - "#e84118Spear&fVIP+ &8- &7 Oylama 2"
